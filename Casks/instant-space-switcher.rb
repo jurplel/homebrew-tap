@@ -7,7 +7,7 @@ cask "instant-space-switcher" do
   desc "Native instant workspace switching"
   homepage "https://github.com/jurplel/InstantSpaceSwitcher"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "InstantSpaceSwitcher.app"
 
